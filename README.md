@@ -134,10 +134,8 @@ console.log(analysis.totalViolations); // number
 
 ## Also by Promise Inc.
 
-| Package | Description |
-|---------|-------------|
-| [`@promise-inc/devlog`](https://www.npmjs.com/package/@promise-inc/devlog) | Simple logger with automatic context (file + line). Zero dependencies. |
-| [`@promise-inc/ui-states`](https://www.npmjs.com/package/@promise-inc/ui-states) | Auto-generated skeleton loading states from real DOM — zero config React component. |
+- [`@promise-inc/devlog`](https://www.npmjs.com/package/@promise-inc/devlog) — Simple logger with automatic context (file + line). Zero dependencies.
+- [`@promise-inc/ui-states`](https://www.npmjs.com/package/@promise-inc/ui-states) — Auto-generated skeleton loading states from real DOM. Zero config React component.
 
 ## License
 
