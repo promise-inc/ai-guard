@@ -1,0 +1,46 @@
+{
+  "name": "@promise-inc/ai-guard",
+  "version": "0.1.0",
+  "description": "Detect AI-generated code patterns before commit/push. Not a linter — a guard.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "ai-guard": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/cli.js"
+  },
+  "keywords": [
+    "ai",
+    "code-quality",
+    "guard",
+    "pre-commit",
+    "ci",
+    "ast",
+    "devtools"
+  ],
+  "homepage": "https://github.com/promise-inc/ai-guard#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/promise-inc/ai-guard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/promise-inc/ai-guard/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ts-morph": "^24.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ]
+}

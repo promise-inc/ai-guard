@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380">
+  <!-- Background -->
+  <rect width="720" height="380" rx="8" fill="#1e1e2e"/>
+
+  <!-- Window dots -->
+  <circle cx="20" cy="18" r="6" fill="#ff5f57"/>
+  <circle cx="40" cy="18" r="6" fill="#febc2e"/>
+  <circle cx="60" cy="18" r="6" fill="#28c840"/>
+
+  <!-- Filename -->
+  <text font-family="monospace" font-size="12" fill="#585b70" x="540" y="19">@promise-inc/ai-guard</text>
+
+  <!-- Line numbers -->
+  <text font-family="monospace" font-size="13" fill="#45475a">
+    <tspan x="16" y="56">1</tspan>
+    <tspan x="16" y="78">2</tspan>
+    <tspan x="16" y="100">3</tspan>
+    <tspan x="16" y="122">4</tspan>
+    <tspan x="16" y="144">5</tspan>
+    <tspan x="16" y="166">6</tspan>
+    <tspan x="16" y="188">7</tspan>
+    <tspan x="16" y="210">8</tspan>
+    <tspan x="16" y="232">9</tspan>
+    <tspan x="10" y="254">10</tspan>
+    <tspan x="10" y="276">11</tspan>
+    <tspan x="10" y="298">12</tspan>
+    <tspan x="10" y="320">13</tspan>
+    <tspan x="10" y="342">14</tspan>
+    <tspan x="10" y="364">15</tspan>
+  </text>
+
+  <!-- Line 1: export default { -->
+  <text font-family="monospace" font-size="13" y="56">
+    <tspan x="40" fill="#c678dd">export default</tspan>
+    <tspan fill="#cdd6f4"> {</tspan>
+  </text>
+
+  <!-- Line 2: maxCommentsRatio -->
+  <text font-family="monospace" font-size="13" y="78">
+    <tspan x="64" fill="#e5c07b">maxCommentsRatio</tspan>
+    <tspan fill="#cdd6f4">: </tspan>
+    <tspan fill="#d19a66">0.15</tspan>
+    <tspan fill="#cdd6f4">,</tspan>
+  </text>
+
+  <!-- Line 3: maxFunctionLines -->
+  <text font-family="monospace" font-size="13" y="100">
+    <tspan x="64" fill="#e5c07b">maxFunctionLines</tspan>
+    <tspan fill="#cdd6f4">: </tspan>
+    <tspan fill="#d19a66">60</tspan>
+    <tspan fill="#cdd6f4">,</tspan>
+  </text>
+
+  <!-- Line 4: forbidGenericNames -->
+  <text font-family="monospace" font-size="13" y="122">
+    <tspan x="64" fill="#e5c07b">forbidGenericNames</tspan>
+    <tspan fill="#cdd6f4">: [</tspan>
+    <tspan fill="#98c379">"data"</tspan>
+    <tspan fill="#cdd6f4">, </tspan>
+    <tspan fill="#98c379">"result"</tspan>
+    <tspan fill="#cdd6f4">, </tspan>
+    <tspan fill="#98c379">"item"</tspan>
+    <tspan fill="#cdd6f4">],</tspan>
+  </text>
+
+  <!-- Line 5: aiPatterns -->
+  <text font-family="monospace" font-size="13" y="144">
+    <tspan x="64" fill="#e5c07b">aiPatterns</tspan>
+    <tspan fill="#cdd6f4">: {</tspan>
+  </text>
+
+  <!-- Line 6: forbid -->
+  <text font-family="monospace" font-size="13" y="166">
+    <tspan x="88" fill="#e5c07b">forbid</tspan>
+    <tspan fill="#cdd6f4">: [</tspan>
+  </text>
+
+  <!-- Line 7 -->
+  <text font-family="monospace" font-size="13" y="188">
+    <tspan x="112" fill="#98c379">"this function"</tspan>
+    <tspan fill="#cdd6f4">,</tspan>
+  </text>
+
+  <!-- Line 8 -->
+  <text font-family="monospace" font-size="13" y="210">
+    <tspan x="112" fill="#98c379">"the purpose of"</tspan>
+    <tspan fill="#cdd6f4">,</tspan>
+  </text>
+
+  <!-- Line 9 -->
+  <text font-family="monospace" font-size="13" y="232">
+    <tspan x="112" fill="#98c379">"we will"</tspan>
+    <tspan fill="#cdd6f4">,</tspan>
+  </text>
+
+  <!-- Line 10 -->
+  <text font-family="monospace" font-size="13" y="254">
+    <tspan x="88" fill="#cdd6f4">],</tspan>
+  </text>
+
+  <!-- Line 11 -->
+  <text font-family="monospace" font-size="13" y="276">
+    <tspan x="64" fill="#cdd6f4">},</tspan>
+  </text>
+
+  <!-- Line 12 -->
+  <text font-family="monospace" font-size="13" y="298">
+    <tspan x="40" fill="#cdd6f4">};</tspan>
+  </text>
+
+  <!-- Highlight on key lines -->
+  <rect x="36" y="65" width="660" height="20" rx="2" fill="#a6e3a1" opacity="0.04"/>
+  <rect x="36" y="87" width="660" height="20" rx="2" fill="#a6e3a1" opacity="0.04"/>
+  <rect x="36" y="109" width="660" height="20" rx="2" fill="#a6e3a1" opacity="0.04"/>
+
+  <!-- Annotation arrows -->
+  <text font-family="monospace" font-size="11" y="78">
+    <tspan x="520" fill="#585b70">← max 15% comments</tspan>
+  </text>
+  <text font-family="monospace" font-size="11" y="100">
+    <tspan x="520" fill="#585b70">← max 60 lines/fn</tspan>
+  </text>
+  <text font-family="monospace" font-size="11" y="122">
+    <tspan x="520" fill="#585b70">← ban generic names</tspan>
+  </text>
+</svg>
