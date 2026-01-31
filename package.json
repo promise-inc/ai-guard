@@ -1,6 +1,6 @@
 {
   "name": "@promise-inc/ai-guard",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Detect AI-generated code patterns before commit/push. Not a linter — a guard.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
