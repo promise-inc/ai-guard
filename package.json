@@ -14,14 +14,21 @@
   },
   "keywords": [
     "ai",
+    "ai-detection",
     "code-quality",
+    "code-review",
     "guard",
     "pre-commit",
+    "pre-push",
     "ci",
     "ast",
-    "devtools"
+    "static-analysis",
+    "devtools",
+    "developer-tools",
+    "promise-inc",
+    "open-source"
   ],
-  "homepage": "https://github.com/promise-inc/ai-guard#readme",
+  "homepage": "https://promise.codes/open-source/ai-guard",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/promise-inc/ai-guard.git"

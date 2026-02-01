@@ -107,7 +107,7 @@ export default {
 ## Programmatic API
 
 ```ts
-import { analyzeProject, loadConfig } from '@promise-inc/ai-guard';
+import { analyzeProject, loadConfig } from "@promise-inc/ai-guard";
 
 const config = await loadConfig(process.cwd());
 const analysis = await analyzeProject(process.cwd(), config);
@@ -132,17 +132,28 @@ console.log(analysis.totalViolations); // number
 - **Zero external dependencies** — Only `ts-morph` for AST parsing
 - **Not a linter** — Focused exclusively on AI-generated code patterns
 
+## How to report bugs
+
+To report a bug, please first read our guide on [opening issues](https://github.com/promise-inc/ai-guard/issues).
+
+## How to contribute code
+
+To open a pull request, please first read our guide on [opening pull requests](https://github.com/promise-inc/ai-guard/pulls), which outlines our process for RFCs and pull requests.
+
 ## Also by Promise Inc.
 
 | Package | Description |
 |---------|-------------|
-| [`@promise-inc/devlog`](https://www.npmjs.com/package/@promise-inc/devlog) | Simple logger with automatic context (file + line). Zero deps. |
-| [`@promise-inc/ui-states`](https://www.npmjs.com/package/@promise-inc/ui-states) | Auto skeleton loading states from real DOM. Zero config. |
-
-## License
-
-MIT
+| [`@promise-inc/ps-guard`](https://github.com/promise-inc/ps-guard) | Lighthouse-based performance guard |
+| [`@promise-inc/fs-guard`](https://github.com/promise-inc/fs-guard) | Validate project folder and file structure |
+| [`@promise-inc/devlog`](https://github.com/promise-inc/devlog) | Logger with automatic context (file + line) |
+| [`@promise-inc/ui-states`](https://github.com/promise-inc/ui-states) | Auto-generated skeleton loading states |
+| [`@promise-inc/dev-reel`](https://github.com/promise-inc/dev-reel) | Animated SVG previews for READMEs |
 
 ---
 
 Developed by [Promise Inc.](https://promise.codes)
+
+## License
+
+MIT © [Promise Inc.](https://promise.codes)
